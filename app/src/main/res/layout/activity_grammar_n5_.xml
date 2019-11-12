@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    tools:context=".activity.GrammarN5_Activity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:cardCornerRadius="10dp">
+
+        <SearchView
+            android:id="@+id/grammarN5_searchview"
+            android:iconifiedByDefault="false"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="4dp"
+            android:background="@color/white"
+            android:queryHint="Nhập từ: 日本, nihon, nhật bản, ..." />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/grammarN5_recycleView"/>
+
+</LinearLayout>
