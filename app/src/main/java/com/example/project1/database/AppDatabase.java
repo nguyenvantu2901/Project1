@@ -9,4 +9,10 @@ import com.example.project1.model.Alphabet;
 public abstract class AppDatabase extends RoomDatabase {
 
     public abstract AlphabetDAO alphabetDAO();
+
+    //từ vựng
+    //ngữ pháp
+    //nghe
+    //kanji
+
 }

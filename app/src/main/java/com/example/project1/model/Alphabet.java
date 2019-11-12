@@ -19,10 +19,14 @@ public class Alphabet {
     @ColumnInfo(name = "romari")
     public String romari;
 
-    public Alphabet(int id, String hiragana, String katakana, String romari) {
+    @ColumnInfo(name = "sound")
+    public String sound;
+
+    public Alphabet(int id, String hiragana, String katakana, String romari, String sound) {
         this.id = id;
         this.hiragana = hiragana;
         this.katakana = katakana;
         this.romari = romari;
+        this.sound = sound;
     }
 }

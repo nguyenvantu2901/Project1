@@ -1,9 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
     tools:context=".activity.LessonActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_marginTop="64dp"
+        android:id="@+id/lesson_btnN5"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_gradient_green"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="Bài học N5" />
+
+    <LinearLayout
+        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="120dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="Nâng cấp" />
+
+        <View
+            android:layout_width="120dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/white" />
+    </LinearLayout>
+
+    <Button
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:drawablePadding="16dp"
+        android:paddingLeft="48dp"
+
+        android:layout_marginTop="32dp"
+        android:id="@+id/lesson_btnN4"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_gradient_blue"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="Bài học N4"/>
+
+    <Button
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:drawablePadding="16dp"
+        android:paddingLeft="48dp"
+
+        android:layout_marginTop="32dp"
+        android:id="@+id/lesson_btnN3"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_gradient_yellow"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="Bài học N3"/>
+
+</LinearLayout>

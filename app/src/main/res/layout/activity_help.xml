@@ -1,9 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
     tools:context=".activity.HelpActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Cài đặt bàn phím tiếng Nhật"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vào Cài đặt -> Hệ thống -> Ngôn ngữ -> Thêm ngôn ngữ"
+                android:textSize="16sp"
+                android:textColor="@color/white"/>
+            <ImageView
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:src="@drawable/huongdan1"
+                android:scaleType="centerInside"/>
+            <TextView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chọn tiếng Nhật"
+                android:textSize="16sp"
+                android:textColor="@color/white"/>
+            <ImageView
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="370dp"
+                android:src="@drawable/huongdan2"
+                android:scaleType="centerInside"/>
+
+            <TextView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sau khi thêm thành công, vào bàn phím "
+                android:textSize="16sp"
+                android:textColor="@color/white"/>
+            <ImageView
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="420dp"
+                android:src="@drawable/huongdan3"
+                android:scaleType="centerInside"/>
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="32dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chọn như hình để thay đổi sang tiếng Nhật."
+                android:textSize="16sp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
