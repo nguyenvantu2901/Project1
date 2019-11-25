@@ -9,10 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.GrammarN5_Activity"></activity>
+        <activity android:name=".activity.LessionN5Activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".activity.GrammarN5_Activity" />
         <activity android:name=".activity.ExamN5Activity" />
         <activity android:name=".activity.HelpActivity" />
         <activity android:name=".activity.ExamActivity" />
+        <activity android:name=".activity.QuizActivity" />
         <activity android:name=".activity.LessonActivity" />
         <activity android:name=".activity.TranslateActivity" />
         <activity android:name=".activity.GrammarActivity" />

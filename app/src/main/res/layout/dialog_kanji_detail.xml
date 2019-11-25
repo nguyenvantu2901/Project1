@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+       <TextView
+           android:background="@drawable/dialog_rounder"
+           android:id="@+id/tvKanji"
+           android:layout_width="150dp"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:layout_centerInParent="true"
+           android:text="A"
+           android:textColor="@color/colorPrimary"
+           android:textSize="80sp" />
+
+       <ImageView
+           android:layout_alignParentRight="true"
+           android:id="@+id/imbCancel"
+           android:layout_width="30dp"
+           android:layout_height="30dp"
+           android:src="@drawable/ic_cancel_black_24dp"/>
+
+   </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:paddingLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#E0E4E2"
+                android:text="Âm Hán :"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tvCNMean"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="nhị"
+                android:textSize="20sp" />
+
+            <TextView
+                android:paddingLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="#E0E4E2"
+                android:text="Kunyomi : "
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tvKunyomi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="a, b, c"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:paddingLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#E0E4E2"
+                android:text="Nghĩa : "
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tvMean"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="hai"
+                android:textSize="20sp" />
+
+            <TextView
+                android:paddingLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="#E0E4E2"
+                android:text="Onyomi : "
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tvOnnyomi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="a, b, c"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:paddingLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0E4E2"
+            android:text="Ví dụ: "
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:paddingLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/tvNote"
+            android:lineSpacingExtra="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

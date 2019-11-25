@@ -31,7 +31,7 @@ public class MainActivity extends BaseActivity {
         initView();
 
         db = Room.databaseBuilder(this,
-                AppDatabase.class, "DuAnDemo1.db").allowMainThreadQueries().build();
+                AppDatabase.class, "DuAnDemo2.db").allowMainThreadQueries().build();
 
 
         alphabet.setOnClickListener(new View.OnClickListener() {
